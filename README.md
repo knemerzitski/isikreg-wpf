@@ -6,7 +6,7 @@ using **Estonian ID-cards**. It manages personnel registration in a searchable t
 This app is a port of my original [Java version](https://github.com/knemerzitski/isikreg-javafx) to C#. 
 I wanted to make a version that doesn't rely on Java and C# has a similar syntax. Besides it's always fun to learn a new language.
 
-![Personnel Registration Application](assets/hero.jpg)
+![Personnel Registration Application](Assets/hero.jpg)
 
 ## Getting Started
 
@@ -30,11 +30,11 @@ This project can be easily compiled with Visual Studio.
 - Fully customizable table columns and settings
 
 ## Documentation
-- [User Manual](docs/isikreg_kasutusjuhend_4.2.pdf)
-- [Alert Quick Start Manual](docs/isikreg_häire_lühijuhend_4.2.pdf)
-- [Settings Documentation](docs/isikreg_seadete_dokumentatsioon_4.2.pdf)
-- [Settings Examples](docs/seadete_näited)
-- [Version History](docs/versiooni_ajalugu.md)
+- [User Manual](Docs/isikreg_kasutusjuhend_4.2.pdf)
+- [Alert Quick Start Manual](Docs/isikreg_häire_lühijuhend_4.2.pdf)
+- [Settings Documentation](Docs/isikreg_seadete_dokumentatsioon_4.2.pdf)
+- [Settings Examples](Docs/seadete_näited)
+- [Version History](Docs/versiooni_ajalugu.md)
 
 ## Technologies
 - C# (.NET 7.0)

@@ -203,7 +203,13 @@ namespace IsikReg.SmartCards {
     }
 
     private void OnDeviceMonitorException(object sender, DeviceMonitorExceptionEventArgs args) {
-      App.ShowException(args.Exception);
+      bool quit = true;
+      if (args.Exception is NoServiceException) {
+        // Don't quit if there are no smartcard reader drivers
+        App.Log(args.Exception.GetType().Name, args.Exception.Message);
+        quit = false;
+      }
+      App.ShowException(args.Exception, quit);
     }
 
     public void Dispose() {

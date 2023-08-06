@@ -50,6 +50,10 @@ using IsikReg.Collections;
 using IsikReg.Converters;
 using System.Reflection;
 using System.Data;
+using System.Security.AccessControl;
+using IsikReg.Utils;
+using NPOI.POIFS.Crypt;
+using System.Diagnostics.CodeAnalysis;
 
 namespace IsikReg {
   /// <summary>
@@ -74,6 +78,11 @@ namespace IsikReg {
       InitializeComponent();
       new WindowInteropHelper(this).EnsureHandle();
       App.Log("Application started!");
+
+      if (!IOUtils.HasWritePermissions()) {
+        App.ShowExceptionDialog("Kirjutusviga", "Programmi kaustas puudub kirjutusõigus!");
+        App.Quit();
+      }
 
       personList = PersonDictionary.Instance;
 
@@ -781,7 +790,7 @@ namespace IsikReg {
       }
       return false;
     }
-    
+
     public bool DeleteAllRegistrationsConfirm(Action beforeDelete) {
       if (App.ShowConfirmDialog("Oled kindel, et tahad registreerimised tühistada?", "Tühistan registreerimised?")) {
         beforeDelete.Invoke();

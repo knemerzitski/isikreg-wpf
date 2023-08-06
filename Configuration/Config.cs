@@ -21,10 +21,10 @@ using System.Collections.ObjectModel;
 using static IsikReg.Configuration.Columns.OptionsColumn;
 using System.Text.RegularExpressions;
 using IsikReg.Model;
+using IsikReg.Utils;
 
-namespace IsikReg.Configuration
-{
-    public class Config {
+namespace IsikReg.Configuration {
+  public class Config {
 
     private static readonly Lazy<Config> lazyInstance = new(() => {
       string path = "./settings.json";
@@ -201,7 +201,9 @@ namespace IsikReg.Configuration
     //}
 
     public void Save(string path) {
-      WriteAsJson(path);
+      if (IOUtils.HasWritePermissions()) {
+        WriteAsJson(path);
+      }
     }
 
     public void SaveNew(string path) {

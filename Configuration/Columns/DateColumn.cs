@@ -1,16 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using System.Windows.Data;
 using System.Windows.Markup;
-using System.Xaml;
-using static IsikReg.Configuration.Columns.Column;
-using static IsikReg.Configuration.Columns.DateColumn;
 
 namespace IsikReg.Configuration.Columns {
 

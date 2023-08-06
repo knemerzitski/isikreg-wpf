@@ -1,18 +1,8 @@
-﻿
-using IsikReg.Configuration.Columns;
-using static IsikReg.Configuration.Columns.Column;
-using static IsikReg.Configuration.Columns.OptionsColumn;
-using System.Text.Json;
-using System;
-using System.Text.Json.Serialization;
-using static IsikReg.Configuration.Columns.ComboBoxColumn;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text.RegularExpressions;
-using System.Text.Json.Nodes;
-using IsikReg.Extensions;
+﻿using IsikReg.Extensions;
 using IsikReg.Json;
-using static IsikReg.Configuration.Columns.TextColumn;
+using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 
 namespace IsikReg.Configuration.Columns {
 

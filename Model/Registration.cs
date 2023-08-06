@@ -1,29 +1,15 @@
-﻿using IsikReg.Configuration;
+﻿using IsikReg.Collections;
+using IsikReg.Configuration;
 using IsikReg.Configuration.Columns;
+using IsikReg.Controls;
+using IsikReg.Extensions;
 using IsikReg.Properties;
 using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Windows;
 using System.Collections;
-using System.Text.Json.Serialization.Metadata;
-using System.Text.Json;
-using System.Windows.Navigation;
-using System.ComponentModel;
-using System.Dynamic;
-using IsikReg.Extensions;
-using System.Reflection;
-using Microsoft.Win32;
-using System.Collections.ObjectModel;
-using IsikReg.Collections;
-using IsikReg.Controls;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
 
 namespace IsikReg.Model {
 

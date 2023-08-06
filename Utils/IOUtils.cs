@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.IO;
-using System.Security.AccessControl;
-using System.Security.Permissions;
-using System.Windows.Shapes;
 
 namespace IsikReg.Utils {
   public static class IOUtils {

@@ -1,13 +1,9 @@
-﻿using IsikReg.Collections;
+﻿using IsikReg.Configuration;
+using IsikReg.Configuration.Columns;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
 using System.Text.Json;
-using System.Threading.Tasks;
-using IsikReg.Configuration.Columns;
-using IsikReg.Configuration;
+using System.Text.Json.Serialization;
 
 namespace IsikReg.Json {
   public class ColumnStringDictionaryConverter<T> : JsonConverter<IDictionary<string, T>> {

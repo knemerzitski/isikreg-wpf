@@ -1,21 +1,13 @@
-﻿using IsikReg.Collections;
-using IsikReg.Configuration.Columns;
-using IsikReg.Model;
-using NPOI.POIFS.Crypt;
-using Org.BouncyCastle.Asn1.X509;
+﻿using IsikReg.Configuration.Columns;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Input;
 using static IsikReg.Configuration.Columns.OptionsColumn;
 
 namespace IsikReg.Configuration {

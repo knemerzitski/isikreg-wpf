@@ -1,12 +1,9 @@
-﻿using System;
+﻿using IsikReg.Ui.Status;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using IsikReg.Extensions;
-using IsikReg.Ui.Status;
 
 namespace IsikReg.Configuration {
   public class VariableStatusMessages {

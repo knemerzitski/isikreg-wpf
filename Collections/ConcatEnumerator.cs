@@ -1,12 +1,6 @@
-﻿using NPOI.SS.Formula.Functions;
-using NPOI.XSSF.Streaming.Values;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace IsikReg.Collections {
 

@@ -1,23 +1,10 @@
-﻿using IsikReg.Configuration;
-using IsikReg.Configuration.Columns;
-using IsikReg.Extensions;
-using IsikReg.Model;
-using IsikReg.Properties;
-using NPOI.POIFS.Crypt;
-using NPOI.SS.Formula.Functions;
-using NPOI.XSSF.Streaming.Values;
+﻿using IsikReg.Extensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
-using System.Dynamic;
-using System.Globalization;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Windows.Input;
 
 namespace IsikReg.Collections {
 

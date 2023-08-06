@@ -1,13 +1,8 @@
 ﻿using IsikReg.Collections;
 using IsikReg.Configuration;
 using IsikReg.Configuration.Columns;
-using NPOI.Util.Collections;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IsikReg.Model {
   public class RegistrationProperties : ObservableDictionary<object> {

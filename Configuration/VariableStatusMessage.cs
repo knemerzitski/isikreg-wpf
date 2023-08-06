@@ -1,10 +1,7 @@
 ﻿using IsikReg.Configuration;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace IsikReg.Ui.Status {
   public partial class VariableStatusMessage {

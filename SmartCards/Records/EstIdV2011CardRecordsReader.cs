@@ -8,12 +8,8 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Data;
 using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Text;
-using System.Threading.Channels;
-using System.Threading.Tasks;
 
 namespace IsikReg.SmartCards.Records {
 

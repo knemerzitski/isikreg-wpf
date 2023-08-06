@@ -1,16 +1,7 @@
 ﻿using IsikReg.Configuration;
 using IsikReg.Extensions;
 using IsikReg.Properties;
-using IsikReg.SmartCards.Records;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Media;
 
 namespace IsikReg.SmartCards {

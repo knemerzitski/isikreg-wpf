@@ -1,20 +1,16 @@
-﻿using IsikReg.Configuration.Columns;
-using IsikReg.Configuration;
-using PCSC.Iso7816;
+﻿using IsikReg.Configuration;
+using IsikReg.Configuration.Columns;
+using IsikReg.Extensions;
+using IsikReg.Utils;
 using PCSC;
+using PCSC.Iso7816;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
-using System.Threading.Tasks;
-using IsikReg.Extensions;
 using System.Text.RegularExpressions;
-using System.Runtime.InteropServices;
-using System.Threading;
-using System.Collections.ObjectModel;
-using System.Collections.Immutable;
-using IsikReg.Utils;
 
 namespace IsikReg.SmartCards.Records {
 

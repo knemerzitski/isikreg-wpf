@@ -1,24 +1,11 @@
 ﻿using IsikReg.Control;
 
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using IsikReg.Ui;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Printing;
-using System.Reflection.Metadata;
-using System.Reflection.PortableExecutable;
-using System.Runtime.Intrinsics.X86;
-using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Shapes;
 using System.Windows.Threading;
 using System.Threading;
-using System.Windows.Markup;
 #if DEBUG
 using IsikReg.Log;
 #endif

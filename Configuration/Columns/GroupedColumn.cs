@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IsikReg.Configuration.Columns {
+﻿namespace IsikReg.Configuration.Columns {
   public class GroupedColumn : Column {
 
     public string Name { get; }

@@ -2,9 +2,8 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace IsikReg.Json
-{
-    public class JsonStringDefaultEnumConverter : JsonConverter<object>
+namespace IsikReg.Json {
+  public class JsonStringDefaultEnumConverter : JsonConverter<object>
     {
         public override object? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {

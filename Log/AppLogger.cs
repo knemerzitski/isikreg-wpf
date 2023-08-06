@@ -1,10 +1,8 @@
 ﻿#if DEBUG
 using System;
-using System.Windows.Controls;
 using System.Windows;
-using System.Collections.Concurrent;
+using System.Windows.Controls;
 using System.Windows.Media;
-using System.Linq;
 
 namespace IsikReg.Log {
   public class AppLogger {

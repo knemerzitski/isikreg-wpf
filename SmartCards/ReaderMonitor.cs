@@ -5,17 +5,12 @@ using IsikReg.SmartCards.Records;
 using IsikReg.Utils;
 using PCSC;
 using PCSC.Exceptions;
-using PCSC.Iso7816;
 using PCSC.Monitoring;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Formats.Tar;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace IsikReg.SmartCards {
 

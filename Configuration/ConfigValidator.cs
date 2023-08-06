@@ -2,15 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static IsikReg.Configuration.Columns.Column;
-using System.Xml.Linq;
-using static Org.BouncyCastle.Math.EC.ECCurve;
 
-namespace IsikReg.Configuration
-{
-    public static class ConfigValidator {
+namespace IsikReg.Configuration {
+  public static class ConfigValidator {
 
     public static void Validate(Config settings) {
       // TODO deny all columns with ID starting with underscore!!!!!

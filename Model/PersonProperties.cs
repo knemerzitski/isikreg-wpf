@@ -1,11 +1,7 @@
 ﻿using IsikReg.Collections;
 using IsikReg.Configuration;
 using IsikReg.Configuration.Columns;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IsikReg.Model {
   public class PersonProperties : ObservableDictionary<object> {

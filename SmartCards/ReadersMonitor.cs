@@ -1,23 +1,12 @@
 ﻿using IsikReg.Configuration;
-using IsikReg.Extensions;
 using IsikReg.Properties;
-using IsikReg.SmartCards.Records;
 using PCSC;
 using PCSC.Exceptions;
-using PCSC.Iso7816;
 using PCSC.Monitoring;
-using PCSC.Utils;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace IsikReg.SmartCards {
 

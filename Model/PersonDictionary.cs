@@ -1,30 +1,20 @@
-﻿using IsikReg.Collections;
-using IsikReg.Configuration;
+﻿using IsikReg.Configuration;
 using IsikReg.Configuration.Columns;
-using IsikReg.Controls;
 using IsikReg.Extensions;
 using IsikReg.IO;
 using IsikReg.Json;
-using IsikReg.Model;
 using IsikReg.Properties;
 using System;
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
 using System.Text.Json;
-using System.Text.Json.Nodes;
 using System.Text.Json.Serialization.Metadata;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Windows;
 
 namespace IsikReg.Model {
 

@@ -1,19 +1,10 @@
 ﻿using IsikReg.Configuration;
 using IsikReg.Configuration.Columns;
-using IsikReg.Model;
+using IsikReg.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Text.Json;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using System.Collections;
-using System.Collections.ObjectModel;
-using NPOI.Util.Collections;
-using IsikReg.Properties;
 
 namespace IsikReg.Extensions {
   public static class DictionaryExtension {

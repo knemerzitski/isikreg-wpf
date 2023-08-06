@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
+﻿using IsikReg.Extensions;
+using System;
 using System.Windows;
-using IsikReg.Extensions;
-using static System.Net.Mime.MediaTypeNames;
-using System.Xml.Linq;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace IsikReg.Control {

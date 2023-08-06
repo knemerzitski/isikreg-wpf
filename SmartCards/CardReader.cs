@@ -1,22 +1,8 @@
-﻿using PCSC.Monitoring;
-using PCSC;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PCSC.Exceptions;
-using PCSC.Utils;
-using PCSC.Iso7816;
-using IsikReg.SmartCards.Records;
-using IsikReg.Extensions;
-using IsikReg.Configuration;
-using System.Xml.Linq;
-using System.Threading;
-using System.ComponentModel;
-using System.Formats.Tar;
-using IsikReg.Utils;
+﻿using PCSC;
 using PCSC.Extensions;
+using PCSC.Iso7816;
+using PCSC.Monitoring;
+using System;
 
 namespace IsikReg.SmartCards {
 

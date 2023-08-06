@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using static IsikReg.Configuration.Columns.Column;
-using static IsikReg.Configuration.Columns.OptionsColumn;
-using static IsikReg.Configuration.Columns.RadioColumn;
+﻿using System.Text.Json.Serialization;
 
 namespace IsikReg.Configuration.Columns {
 

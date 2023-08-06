@@ -1,11 +1,6 @@
 ﻿using IsikReg.Properties;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json.Serialization.Metadata;
-using System.Threading.Tasks;
 
 namespace IsikReg.Json {
   public static class TypeInfoResolverModifiers {

@@ -268,7 +268,10 @@ namespace IsikReg.SmartCards {
     }
 
     private void OnMonitorException(object sender, PCSCException e) {
-      App.ShowException(e);
+      if (e.InnerException is NoReadersAvailableException) {
+        return; // If card reader was removed together the with card
+      }
+      App.ShowException(e.InnerException ?? e);
     }
 
     public void Dispose() {

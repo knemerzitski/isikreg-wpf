@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IsikReg.Controls" 
   mc:Ignorable="d"
-        Title="Isikkoosseisu Registreerimise Rakendus 4.2"  MinWidth="730" MinHeight="467" Width="780" Height="540"
+        Title="Isikkoosseisu Registreerimise Rakendus 4.2.1"  MinWidth="730" MinHeight="467" Width="780" Height="540"
   >
   <!-- progressStackPane -->
   <Grid>

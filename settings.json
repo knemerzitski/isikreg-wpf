@@ -1,0 +1,130 @@
+{
+  "General": {
+    "SavePath": "./isikreg",
+    "ErrorLogging": true,
+    "SmoothFont": true,
+    "RegisterDuringGracePeriod": "CONFIRM",
+    "RegisterGracePeriod": 600000,
+    "RegisterSameTypeInRow": "ALLOW",
+    "InsertPerson": true,
+    "UpdatePerson": true,
+    "DeletePerson": true,
+    "WarnDuplicateRegistrationDate": true,
+    "TableContextMenu": true,
+    "QuickRegistrationButtons": {
+      "ShowSelectedPerson": true
+    },
+    "PersonDisplayFormat": "{PERSONAL_CODE} {FIRST_NAME} {LAST_NAME}"
+  },
+  "Excel": {
+    "SheetName": "Nimekiri",
+    "ExportDateTimeFormat": "dd.mm.yyyy hh:mm",
+    "ExportDateFormat": "dd.mm.yyyy"
+  },
+  "SmartCard": {
+    "StatusFormat": "{FIRST_NAME} {LAST_NAME}\n@event",
+    "ShowSuccessStatusDuration": 10000,
+    "ExternalTerminalFontSize": 50,
+    "EnableCardPresentIndicator": true,
+    "RegisterExpiredCards": "CONFIRM",
+    "RegisterPersonNotInList": "ALLOW",
+    "QuickNewPersonRegistration": false,
+    "QuickExistingPersonRegistration": false,
+    "WaitForChangeLoopInterval": 0,
+    "CardReadingFailedRetryInterval": 2000,
+    "CardReadingAttemptsUntilGiveUp": 4,
+    "NoReadersCheckInterval": 2000,
+    "ReaderMissingCheckInterval": 2000,
+    "ReadersPresentCheckInterval": 10000
+  },
+  "Columns": {
+    "Registreeritud": {
+      "Type": "CHECKBOX",
+      "Form": false,
+      "Id": "REGISTERED",
+      "Group": "REGISTRATION",
+      "Required": false,
+      "Table": {
+        "Editable": true
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": {
+        "Total": true,
+        "Percent": true
+      }
+    },
+    "Registreerimise\ntüüp": {
+      "Type": "RADIO",
+      "Form": {
+        "Layout": "HORIZONTAL"
+      },
+      "Options": [
+        "Sisse",
+        "Välja"
+      ],
+      "Id": "REGISTRATION_TYPE",
+      "Group": "REGISTRATION",
+      "Required": true,
+      "Table": {
+        "Editable": false
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": false
+    },
+    "Registreerimise\naeg": {
+      "Type": "DATE",
+      "DateFormat": "dd.MM HH:mm",
+      "Form": false,
+      "Id": "REGISTER_DATE",
+      "Group": "REGISTRATION",
+      "Required": false,
+      "Table": {
+        "Editable": false
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": false
+    },
+    "Isikukood": {
+      "Type": "TEXT",
+      "Form": {
+        "Editable": true
+      },
+      "Id": "PERSONAL_CODE",
+      "Group": "PERSON",
+      "Required": true,
+      "Table": {
+        "Editable": false
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": false
+    },
+    "Perekonnanimi": {
+      "Type": "TEXT",
+      "Form": {
+        "Editable": true
+      },
+      "Id": "LAST_NAME",
+      "Group": "PERSON",
+      "Required": false,
+      "Table": {
+        "Editable": false
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": false
+    },
+    "Eesnimi": {
+      "Type": "TEXT",
+      "Form": {
+        "Editable": true
+      },
+      "Id": "FIRST_NAME",
+      "Group": "PERSON",
+      "Required": false,
+      "Table": {
+        "Editable": false
+      },
+      "Merge": "OVERWRITE_ON_EMPTY",
+      "Statistics": false
+    }
+  }
+}

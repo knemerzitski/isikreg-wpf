@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controls\card-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.0" />
+    <PackageReference Include="PCSC.Iso7816" Version="6.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Controls\card-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Docs\" />
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
+</Project>

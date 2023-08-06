@@ -8,6 +8,8 @@ namespace IsikReg.SmartCards {
   public enum State {
     NULL,
 
+    DRIVER_MISSING,
+
     WAITING_CARD_READER,
     WAITING_CARD,
 

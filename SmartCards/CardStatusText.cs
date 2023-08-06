@@ -30,6 +30,9 @@ namespace IsikReg.SmartCards {
           case State.NULL:
             Null();
             break;
+          case State.DRIVER_MISSING:
+            DriverMissing();
+            break;
           case State.WAITING_CARD_READER:
             WaitingForCardReader();
             break;
@@ -161,6 +164,10 @@ namespace IsikReg.SmartCards {
 
     public void CardPresent() {
       Set("ID-kaart olemas. Palun oota!", GRAY);
+    }
+
+    private void DriverMissing() {
+      Set("Draiver puudub! Sisesta ID-kaardi\nlugeja ja taaskäivita programm.", GRAY);
     }
 
   }
